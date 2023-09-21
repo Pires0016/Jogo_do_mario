@@ -1,0 +1,53 @@
+#page {
+    width: 900px;
+    height: auto;
+    border: 2px dashed rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    float: left;
+    left: 50%;
+    margin-left: -450px;
+    ;
+}
+
+header,
+footer {
+    width: 900px;
+    height: 100px;
+    background-color: rgb(0, 160, 176);
+    float: left;
+}
+
+header {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+}
+
+content {
+    border: rgb(0, 255, 0)solid;
+    float: left;
+}
+
+section {
+    width: 596px;
+    height: 600px;
+    background-color: rgb(106, 74, 60);
+    border-right: 2px rgb(0, 255, 0) solid;
+    float: left;
+}
+
+article {
+    width: 296px;
+    height: 200px;
+    background-color: rgb(240, 17, 17);
+    float: right;
+}
+
+article.cor1 {
+    background-color: rgb(202, 51, 63);
+}
+
+article.cor2 {
+    background-color: rgb(235, 104, 65);
+}
